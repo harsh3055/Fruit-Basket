@@ -9,6 +9,7 @@ const { config } = require("dotenv");
 const cors = require("cors");
 cors();
 
+//Useless comment
 dotenv.config({ path: "./config.env" });
 mongoose
   .connect(process.env.MONGO_URI, {
